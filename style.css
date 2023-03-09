@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Island+Moments&family=Italianno&family=Roboto:wght@300;400;700&family=Twinkle+Star&display=swap');
+
+.login-btn {
+    color: #726e6f;
+    font-weight: 700;
+}
+
+.start-btn {
+    background-color: #00b8c7 !important;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.navbar-bottomline {
+    background-color: #c9143f;
+}
+
+/* 1 */
+.sectionone-bgcolor {
+    background-color: #d1dee4;
+}
+
+.sectionone-content {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.title-theeasiest {
+    font-size: 2.6rem;
+}
+
+.allthe-paragraph {
+    color: #101d23;
+}
+
+.img-fluidsectinoone {
+    width: -webkit-fill-available;
+    height: 57ch;
+}
+
+
+/* 2 */
+.cutome-cards {
+    min-height: 300px;
+}
+
+.rounded-circleicon {
+    border: 1px solid transparent;
+    max-width: 35%;
+    justify-content: center;
+    display: flex;
+    margin: 2rem auto 0.5rem;
+    padding: 1rem;
+    background-color: #f8f4f3;
+    border-radius: 50%;
+    min-height: 80px;
+}
+
+.title-height {
+    min-height: 50px;
+}
+
+.bg-red {
+    background-color: #c5093b;
+}
+
+.card-titlecolor {
+    color: #283f51 !important;
+}
+
+.card-textcolor {
+    color: #585858 !important;
+}
+
+/* 3 */
+.sectionthree-bgcolor {
+    background-color: #325f80;
+}
+
+.sectionthre-content {
+    max-width: 60%;
+}
+
+/* 4 */
+.card-imgradius {
+    border-radius: 50%;
+    width: 35%;
+    height: 15vh;
+    margin: 0 auto;
+}
+
+/* 5 */
+.sectionfive-bgcolor {
+    background-color: #f7e3dc;
+}
+
+.img-fluidsectinfive {
+    max-width: 100%;
+    transform: skewX(355deg);
+    height: -webkit-fill-available;
+}
+
+.free-title {
+    color: #f4787a;
+    text-decoration: underline;
+}
+
+.sectionfive-content {
+    max-width: 59%;
+    margin: 7rem auto;
+}
+
+.paragraph-colorline {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* 6 */
+.cardbody-width,
+.cardbody-widthp {
+    width: 222px;
+    height: 50px;
+    margin: 0.5rem auto;
+}
+
+/* 7 */
+.sectionseven-bgcolor {
+    background-color: #325f80;
+}
+
+.font-family {
+    font-family: 'Ephesis', cursive;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    .sectionone-content {
+        max-width: 90%;
+        margin: 5rem auto;
+    }
+
+    .sectionthre-content {
+        max-width: 90%;
+    }
+
+    .sectionfive-content {
+        max-width: 90%;
+        margin: 0.5rem auto;
+    }
+
+    .title-theeasiest,
+    .title-hone {
+        font-size: 2rem;
+    }
+
+    .font-family {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .cardbody-width,
+    .cardbody-widthp {
+        width: auto;
+        height: auto;
+        margin: 0.5rem auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .sectionone-content {
+        margin: 2rem auto;
+    }
+
+    .title-theeasiest,
+    .title-hone {
+        font-size: 1.5rem;
+    }
+
+    .font-family {
+        font-size: 3rem;
+    }
+}
